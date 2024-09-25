@@ -5,7 +5,7 @@ const messages = {
   en: {
     home: 'Home',
     service: "Service",
-    course: "Course",
+    courses: "Courses",
     team: "Team",
     why: "Why us",
     about:"About",
@@ -24,7 +24,7 @@ const messages = {
   khm: {
     home: 'ទំព័រដើម',
     service: 'សេរាកម្ម',
-    course: 'មេរៀន',
+    courses: 'មេរៀន',
     team: 'ក្រុម',
     why: 'ហេតុអ្វី',
     about: 'អំពី',

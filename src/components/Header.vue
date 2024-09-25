@@ -54,7 +54,7 @@ export default {
         name: 'home', path: "/"
       },
       {
-        name: "course", path: "/course"
+        name: "courses", path: "/courses"
       },
       {
         name: "about", path: "/about"

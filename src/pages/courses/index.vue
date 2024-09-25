@@ -48,7 +48,9 @@ export default {
   },
   async created() {
     try {
+      console.log("Heloo");
       const response = await axios.get("/v1/courses");
+      console.log(response);
       const courses = response.data;
       this.courses = courses;
     } catch (error) {

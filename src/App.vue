@@ -20,7 +20,7 @@ export default {
   },
   data() {
     return {
-      appName: process.env.VUE_APP_NAME,
+      appName: process.env.VUE_APP_TITLE,
     };
   },
 };

@@ -38,7 +38,7 @@
         </div>
 
         <button class="w-100 btn btn-lg btn-primary" type="submit">Sign in</button>
-        <p>Please <a href="/register">Register</a></p>
+        <p>Please <router-link href="/register">Register</router-link></p>
       </Form>
 
     </div>
