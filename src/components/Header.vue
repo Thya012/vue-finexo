@@ -46,6 +46,7 @@ export default {
   data() {
    
     return {
+      appName: process.env.VUE_APP_TITLE,
       currentImage:1,
       imgs:[
         "images/flat/united-states.svg","images/flat/cambodia.svg"
