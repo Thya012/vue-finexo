@@ -12,6 +12,7 @@ import Login from "@/pages/login.vue"
 import Repos from '@/components/Repos.vue'
 import Register from "@/pages/Register.vue"
 import Why from "@/pages/Why.vue"
+import NotFound from '@/components/NotFound.vue'
 
 const routes = [
     { path: '/', component: Home },
@@ -29,7 +30,8 @@ const routes = [
     { path: '/repos', component: Repos },
     { path: '/why', component: Why },
     { path: '/register', component: Register },
-    { path: '/service', component: Services }
+    { path: '/service', component: Services },
+    { path: '/:pathMatch(.*)*', component: NotFound}
 ]
 const router = createRouter({
     history: createWebHistory(),

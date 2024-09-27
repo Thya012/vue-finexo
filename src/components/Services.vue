@@ -41,7 +41,7 @@
 
 <script>
 import { mapState } from 'pinia';
-import useServiceStore from '@/store/service';
+import {useServiceStore} from '@/store/hero';
   export default {
   components: {
     

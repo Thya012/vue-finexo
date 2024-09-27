@@ -55,13 +55,13 @@
 <script>
 import Header from "@/components/Header.vue";
 import { mapState } from 'pinia';
-import useWhyStore from '@/store/hero';
+import {useHeroStore} from '@/store/hero';
 export default {
   components: {
     Header,
   },
   computed: {
-    ...mapState(useWhyStore, ['heroes']),
+    ...mapState(useHeroStore, ['heroes']),
   },
 };
 </script>
