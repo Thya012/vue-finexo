@@ -1,7 +1,5 @@
 <template>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+Khmer:wght@100..900&display=swap" rel="stylesheet">
+ 
   <div class="sub_page">
     <div class="hero_area">
       <Header></Header>
@@ -25,13 +23,3 @@ export default {
   },
 };
 </script>
-<style>
-
-body {
-  font-family: "Noto Serif Khmer", serif;
-  font-optical-sizing: auto;
-  
-  font-style: normal;
-  font-variation-settings: "wdth" 100;
-}
-</style>
